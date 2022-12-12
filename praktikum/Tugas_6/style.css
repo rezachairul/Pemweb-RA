@@ -1,0 +1,65 @@
+
+body {  
+    font-family: Monospace, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background: #0d1117;
+}
+  
+  input[name=dataAngka] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 4px;
+    background-color: #e9e9e9;
+    color: black;
+    font-size: 15px;
+  }
+  
+  table {
+      position: relative;
+      border-radius: 10px;
+      background: #fff;
+      border-top: 3px solid #f50;
+      margin: 16px auto;
+      padding: 1rem;
+      width: 50%;
+      box-shadow: 0 2px 1.5px rgba(218,165,32);
+  }
+ /* CSS */
+.buttonUP {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(218,165,32) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Monospace, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+  }
+  
+  .buttonUP:hover {
+    background-color: #f7fafa;
+  }
+  
+  .buttonUP:focus {
+    border-color: #0d1117;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
