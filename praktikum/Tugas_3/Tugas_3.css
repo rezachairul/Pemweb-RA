@@ -1,0 +1,244 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: white;
+    background-color: palevioletred;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+section{
+    padding-top: 20px;
+}
+
+.header{
+    background-color: whitesmoke;
+    color: pink;
+    margin: auto;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+}
+.header img{
+    padding: 4px;
+    margin-left: 250px;
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 150px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    background:pink;
+    
+}
+.kolom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.kolom h1 a{
+    color: palevioletred;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    justify-content: space-between;
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    padding: 15px 25px;
+    backdrop-filter: blur(8px);
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+.me{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+    color: white;
+}
+.me h2{
+    background-color: white;
+    color: palevioletred;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.me p{
+    text-align: justify;
+}
+
+.tentang{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.video{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.pengalaman{
+    margin-top: 0;
+    margin-left: 20px;
+    padding: 20px;
+}
+.pengalaman h2{
+    background-color: white;
+    color: palevioletred;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.tabel {
+    margin-left: 40px;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+.tabel th{
+    color: white;
+    border: 1px solid;
+    background-color: rgb(178, 78, 94);
+    padding: 5px;
+}
+.tabel td{
+    color: white;
+    background-color: rgb(220, 148, 160);
+    padding: 5px;
+    text-align: center;
+}
+.tabel tr{
+    border: 1px white;
+}
+
+.call{
+    margin-top: 0;
+    margin-left: 20px;
+    padding: 20px;
+}
+.call h2{
+    background-color: white;
+    color: palevioletred;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.hubungi{
+    margin: auto;
+}
+
+.form{
+    width: 250px;
+    margin-left: 40px;
+    background-color: pink;
+    border-radius: 15px;
+    padding: 35px;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    color: palevioletred;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-primary{
+    background-color: #ffff;
+}
+.button-primary:hover{
+    background-color: rgb(178, 78, 94);
+    color: #ffff;
+}
+
+.contact{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.contact h2{
+    background-color: white;
+    color: palevioletred;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.medsos{
+    float: left;
+}
+.medsos ul{
+    display: flex;
+}
+.medsos ul li{
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    margin-left: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;    
+}
+.medsos ul li a{
+    color: white;
+}
+
+.footer {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: flex;
+    line-height: 60px;
+    top: 0;
+    background-color: white;
+}
+
+.copyright p{
+    color: palevioletred;
+    font-weight: bold;
+    margin-left: 650px;
+}
